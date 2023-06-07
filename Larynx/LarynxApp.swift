@@ -10,10 +10,12 @@ import SwiftData
 
 @main
 struct LarynxApp: App {
+    @State var audioRecorder = AudioRecorder()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(audioRecorder)
         }
         .modelContainer(for: Item.self)
     }
