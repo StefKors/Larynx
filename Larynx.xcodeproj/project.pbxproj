@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AA57F4C2A30CB3A0023FE84 /* SwiftUIExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA57F492A30CB3A0023FE84 /* SwiftUIExampleView.swift */; };
+		8AA57F4D2A30CB3A0023FE84 /* RecordingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA57F4A2A30CB3A0023FE84 /* RecordingIndicatorView.swift */; };
+		8AA57F4E2A30CB3A0023FE84 /* ProgressWaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA57F4B2A30CB3A0023FE84 /* ProgressWaveformView.swift */; };
+		8AA57F502A30CD0E0023FE84 /* SCAudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA57F4F2A30CD0E0023FE84 /* SCAudioManager.swift */; };
 		8AEEE48A2A30BBD1007151A4 /* LarynxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEE4892A30BBD1007151A4 /* LarynxApp.swift */; };
 		8AEEE48C2A30BBD1007151A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEE48B2A30BBD1007151A4 /* ContentView.swift */; };
 		8AEEE48E2A30BBD2007151A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEEE48D2A30BBD2007151A4 /* Assets.xcassets */; };
 		8AEEE4912A30BBD2007151A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEEE4902A30BBD2007151A4 /* Preview Assets.xcassets */; };
 		8AEEE4932A30BBD2007151A4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEE4922A30BBD2007151A4 /* Item.swift */; };
-		8AEEE49C2A30BE3C007151A4 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEE49B2A30BE3C007151A4 /* AudioRecorder.swift */; };
-		8AEEE4A02A30BE61007151A4 /* RecordingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEE49D2A30BE61007151A4 /* RecordingDataModel.swift */; };
-		8AEEE4A12A30BE61007151A4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEE49E2A30BE61007151A4 /* Extensions.swift */; };
-		8AEEE4A22A30BE61007151A4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEE49F2A30BE61007151A4 /* Helper.swift */; };
-		8AEEE4A42A30BE8A007151A4 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEE4A32A30BE8A007151A4 /* RecordingView.swift */; };
-		8AEEE4A62A30BEC8007151A4 /* RecordingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEE4A52A30BEC8007151A4 /* RecordingsList.swift */; };
 		8AEEE4A92A30C101007151A4 /* DSWaveformImage in Frameworks */ = {isa = PBXBuildFile; productRef = 8AEEE4A82A30C101007151A4 /* DSWaveformImage */; };
 		8AEEE4AB2A30C101007151A4 /* DSWaveformImageViews in Frameworks */ = {isa = PBXBuildFile; productRef = 8AEEE4AA2A30C101007151A4 /* DSWaveformImageViews */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8AA57F492A30CB3A0023FE84 /* SwiftUIExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIExampleView.swift; sourceTree = "<group>"; };
+		8AA57F4A2A30CB3A0023FE84 /* RecordingIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingIndicatorView.swift; sourceTree = "<group>"; };
+		8AA57F4B2A30CB3A0023FE84 /* ProgressWaveformView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressWaveformView.swift; sourceTree = "<group>"; };
+		8AA57F4F2A30CD0E0023FE84 /* SCAudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCAudioManager.swift; sourceTree = "<group>"; };
 		8AEEE4862A30BBD1007151A4 /* Larynx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Larynx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEEE4892A30BBD1007151A4 /* LarynxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LarynxApp.swift; sourceTree = "<group>"; };
 		8AEEE48B2A30BBD1007151A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,12 +33,6 @@
 		8AEEE4922A30BBD2007151A4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		8AEEE4942A30BBD2007151A4 /* Larynx.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Larynx.entitlements; sourceTree = "<group>"; };
 		8AEEE4952A30BBD2007151A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8AEEE49B2A30BE3C007151A4 /* AudioRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
-		8AEEE49D2A30BE61007151A4 /* RecordingDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingDataModel.swift; sourceTree = "<group>"; };
-		8AEEE49E2A30BE61007151A4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		8AEEE49F2A30BE61007151A4 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		8AEEE4A32A30BE8A007151A4 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
-		8AEEE4A52A30BEC8007151A4 /* RecordingsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,14 +67,12 @@
 		8AEEE4882A30BBD1007151A4 /* Larynx */ = {
 			isa = PBXGroup;
 			children = (
+				8AA57F4B2A30CB3A0023FE84 /* ProgressWaveformView.swift */,
+				8AA57F4A2A30CB3A0023FE84 /* RecordingIndicatorView.swift */,
+				8AA57F492A30CB3A0023FE84 /* SwiftUIExampleView.swift */,
+				8AA57F4F2A30CD0E0023FE84 /* SCAudioManager.swift */,
 				8AEEE4892A30BBD1007151A4 /* LarynxApp.swift */,
 				8AEEE48B2A30BBD1007151A4 /* ContentView.swift */,
-				8AEEE49B2A30BE3C007151A4 /* AudioRecorder.swift */,
-				8AEEE4A32A30BE8A007151A4 /* RecordingView.swift */,
-				8AEEE4A52A30BEC8007151A4 /* RecordingsList.swift */,
-				8AEEE49E2A30BE61007151A4 /* Extensions.swift */,
-				8AEEE49F2A30BE61007151A4 /* Helper.swift */,
-				8AEEE49D2A30BE61007151A4 /* RecordingDataModel.swift */,
 				8AEEE48D2A30BBD2007151A4 /* Assets.xcassets */,
 				8AEEE4922A30BBD2007151A4 /* Item.swift */,
 				8AEEE4942A30BBD2007151A4 /* Larynx.entitlements */,
@@ -173,14 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AEEE4A62A30BEC8007151A4 /* RecordingsList.swift in Sources */,
 				8AEEE48C2A30BBD1007151A4 /* ContentView.swift in Sources */,
-				8AEEE4A22A30BE61007151A4 /* Helper.swift in Sources */,
-				8AEEE4A12A30BE61007151A4 /* Extensions.swift in Sources */,
-				8AEEE4A02A30BE61007151A4 /* RecordingDataModel.swift in Sources */,
+				8AA57F4C2A30CB3A0023FE84 /* SwiftUIExampleView.swift in Sources */,
+				8AA57F4E2A30CB3A0023FE84 /* ProgressWaveformView.swift in Sources */,
+				8AA57F502A30CD0E0023FE84 /* SCAudioManager.swift in Sources */,
+				8AA57F4D2A30CB3A0023FE84 /* RecordingIndicatorView.swift in Sources */,
 				8AEEE4932A30BBD2007151A4 /* Item.swift in Sources */,
-				8AEEE49C2A30BE3C007151A4 /* AudioRecorder.swift in Sources */,
-				8AEEE4A42A30BE8A007151A4 /* RecordingView.swift in Sources */,
 				8AEEE48A2A30BBD1007151A4 /* LarynxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
