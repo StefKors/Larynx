@@ -36,7 +36,7 @@ struct ContentView: View {
             // }
             // Text("Select an item")
 
-        SwiftUIExampleView()
+            RecordingView()
         // }
     }
 
