@@ -54,11 +54,12 @@ import Observation
 
             recording = true
 
-            timer = Timer.scheduledTimer(withTimeInterval: 0.02, repeats: true, block: { timerval in
+            timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true, block: { timerval in
                 audioRecorder.updateMeters()
                 let power = audioRecorder.averagePower(forChannel: 0)
-                print("update with power \(power)")
-                self.waveData.append(power)
+                let linear = 1 - pow(10, power / 20)
+                print("update with power \(power) || \(linear)")
+                self.waveData.append(linear)
             })
         } catch {
             print("Could not start recording")
