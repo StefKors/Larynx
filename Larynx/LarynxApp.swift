@@ -17,6 +17,6 @@ struct LarynxApp: App {
             ContentView()
                 .environment(audioRecorder)
         }
-        .modelContainer(for: Item.self)
+        .modelContainer(for: Recording.self)
     }
 }

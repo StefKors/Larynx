@@ -6,5 +6,7 @@
 	<array>
 		<string>remote-notification</string>
 	</array>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>The microphone is used when you start recording</string>
 </dict>
 </plist>

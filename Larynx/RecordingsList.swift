@@ -1,29 +1,24 @@
-//RecordingsList.swift
-
-//Created by BLCKBIRDS on 28.10.19.
-//Visit www.BLCKBIRDS.com for more.
-
 import SwiftUI
+import SwiftData
 
 struct RecordingsList: View {
-    @Environment(AudioRecorder.self) private var audioRecorder
+    @Query private var recordings: [Recording]
 
     var body: some View {
         List {
-            ForEach(audioRecorder.recordings, id: \.createdAt) { recording in
-                RecordingRow(audioURL: recording.fileURL)
+            ForEach(recordings, id: \.createdAt) { recording in
+                RecordingRow(createdAt: recording.createdAt)
             }
         }
     }
 }
 
 struct RecordingRow: View {
-    
-    var audioURL: URL
-    
+    var createdAt: Date
+
     var body: some View {
         HStack {
-            Text("\(audioURL.lastPathComponent)")
+            Text("\(createdAt.formatted())")
             Spacer()
         }
     }
