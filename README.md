@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Statement/Assets.xcassets/AppIcon.appiconset/Large Icon1024.png" height="128">
+  <img src="Statement/Assets.xcassets/AppIcon.appiconset/mac512.png" height="128">
   <h1 align="center">Larynx</h1>
 </p>
 
@@ -38,7 +38,9 @@
 </picture>
 </p>
 
+<p align="center">
 <img alt="Screenshot of Larynx" width="400" src="Images/animation.gif">
+</p>
 
 -------
 
