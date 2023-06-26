@@ -3,7 +3,7 @@
   <h1 align="center">Larynx</h1>
 </p>
 
-[Larynx](https://github.com/StefKors/Larynx) A home made voice recorder
+[Larynx](https://github.com/StefKors/Larynx) a home made voice recorder
 
 #### Supported Platforms
 <p align="left">
