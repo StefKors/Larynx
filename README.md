@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Statement/Assets.xcassets/AppIcon.appiconset/mac512.png" height="128">
+  <img src="Larynx/Assets.xcassets/AppIcon.appiconset/mac512.png" height="128">
   <h1 align="center">Larynx</h1>
 </p>
 
@@ -8,21 +8,21 @@
 #### Supported Platforms
 <p align="left">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="Images/macos.svg">
-  <source media="(prefers-color-scheme: light)" srcset="Images/macos-active.svg">
-  <img alt="macos" src="Images/macos-active.svg" height="24">
+  <source media="(prefers-color-scheme: dark)" srcset="Images/macos-active.svg">
+  <source media="(prefers-color-scheme: light)" srcset="Images/macos.svg">
+  <img alt="macos" src="Images/macos.svg" height="24">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="Images/ios-active.svg">
-  <source media="(prefers-color-scheme: light)" srcset="Images/ios.svg">
-  <img alt="macos" src="Images/ios.svg" height="24">
+  <source media="(prefers-color-scheme: dark)" srcset="Images/ios.svg">
+  <source media="(prefers-color-scheme: light)" srcset="Images/ios-active.svg">
+  <img alt="macos" src="Images/ios-active.svg" height="24">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="Images/ipados-active.svg">
-  <source media="(prefers-color-scheme: light)" srcset="Images/ipados.svg">
-  <img alt="macos" src="Images/ipados.svg" height="24">
+  <source media="(prefers-color-scheme: dark)" srcset="Images/ipados.svg">
+  <source media="(prefers-color-scheme: light)" srcset="Images/ipados-active.svg">
+  <img alt="macos" src="Images/ipados-active.svg" height="24">
 </picture>
 
 <picture>
