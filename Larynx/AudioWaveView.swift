@@ -32,7 +32,7 @@ struct AudioWaveView: View {
                     .frame(width: geo.size.width)
                     .padding(.bottom)
                 }
-                .scrollPosition(initialAnchor: .bottom)
+                .defaultScrollAnchor(.bottom)
 
             }
             .frame(alignment: .bottom)
